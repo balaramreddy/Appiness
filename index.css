@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,600;1,400&display=swap");
+.banner {
+  width: 100%;
+  background-image: url("./assets/Banner_mage.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.bolder,
+h5 {
+  color: white;
+  font-family: "Exo 2", sans-serif;
+}
+.card-text {
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+  background: #36d1dc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #5b86e5,
+    #36d1dc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #5b86e5,
+    #36d1dc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+a {
+  border: 1px solid black;
+  padding: 5px;
+  color: white !important;
+  background: #36d1dc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #5b86e5,
+    #36d1dc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #5b86e5,
+    #36d1dc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+small,
+h6 {
+  color: #1d5aa6;
+}
+.list-unstyled li {
+  display: flex !important;
+  text-align: justify;
+}
+#plus-icon {
+  width: 15px;
+  height: 15px;
+  margin: 7px !important;
+}
+/* signs */
+#signs {
+  width: 35px;
+  height: 35px;
+}
+.col-md-3 {
+  padding-bottom: 20px !important;
+}
+.cardwh {
+  height: 145px;
+}
+.btn-block {
+  color: #1d5aa6 !important;
+  font-size: 25px;
+  font-weight: 600 !important;
+}
+.testimonials {
+  justify-content: space-between;
+}
+#arrows {
+  margin: auto;
+  padding: 1px;
+  width: 18px;
+  height: 10px;
+}
+.quotes #quote {
+  float: right !important;
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .banner .col-md-8 {
+    padding: 15px !important;
+  }
+  .banner .col-md-8 .part-1 {
+    padding: 0px !important;
+  }
+  .banner .col-md-8 .part-2 {
+    padding: 20px 0px !important;
+  }
+  .banner .col-md-4 {
+    padding: 15px !important;
+  }
+  /* docters */
+  .docters .col-md-6{
+      padding: 5px !important;
+  }
+  .docters .card .card-img-top{
+      width: 100% !important;
+  }
+}
